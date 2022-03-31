@@ -1,4 +1,3 @@
-Just a simple button to switch the theme of the page. React.
-<a href="https://plutarchdev.github.io/dark-to-light-page/">
+Just a simple button to switch the theme of the page. build with React.
 ## View
-</a>
+<a href="https://plutarchdev.github.io/dark-to-light-page/">View</a>
