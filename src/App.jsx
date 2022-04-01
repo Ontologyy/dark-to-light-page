@@ -8,7 +8,7 @@ import 'animate.css';
 export function App() {
 
   const toGitHub = () => {
-    window.open("https://github.com/PlutarchDev", '_blank');
+    window.open("https://github.com/PlutarchDev");
 };
 
  const [statusLight, setLightApp] = useState('Dark');
