@@ -1,7 +1,7 @@
 import './App.css';
 import { BsGithub } from "react-icons/bs";
 import ButtonItem from "./components/Components.jsx";
-import { useState } from 'react';
+import { useEffect, useState } from 'react';
 import 'animate.css';
 
 
@@ -13,14 +13,19 @@ export function App() {
 
  const [statusLight, setLightApp] = useState('Dark');
 
- const handleLightingApp = () => {
+useEffect(() => {
+  setLightApp('Light');
+
+}, [])
+
+ const handleLightingApp = () => { 
   if(statusLight == 'Dark'){
    setLightApp('Light');
-   console.log('APP: lightState has been switched from', statusLight, 'to Light');
+   console.log('APP: lightState has been switched from Light to ', statusLight);
   };
-  if (statusLight == 'Light'){
+  if(statusLight == 'Light'){
    setLightApp('Dark');
-   console.log('APP: lightState has been switched from', statusLight, 'to Dark');
+   console.log('APP: lightState has been switched from Dark', statusLight);
   };
 };
 
@@ -31,7 +36,7 @@ export function App() {
       <div className='containerButton'>
 
       <ButtonItem send1={send1=> setLightApp(send1)}
-      className="ButtonItem" onClick={handleLightingApp}/>
+      className="ButtonItem" onChange={handleLightingApp} />
 
       </div>
       <h3 className="animate__animated animate__bounceInDown"> Ready to work?</h3>
