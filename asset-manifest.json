@@ -1,13 +1,13 @@
 {
   "files": {
-    "main.css": "/dark-to-light-page/static/css/main.48f2dd54.css",
-    "main.js": "/dark-to-light-page/static/js/main.41b659c5.js",
+    "main.css": "/dark-to-light-page/static/css/main.03e7b4ea.css",
+    "main.js": "/dark-to-light-page/static/js/main.3d9a5c23.js",
     "index.html": "/dark-to-light-page/index.html",
-    "main.48f2dd54.css.map": "/dark-to-light-page/static/css/main.48f2dd54.css.map",
-    "main.41b659c5.js.map": "/dark-to-light-page/static/js/main.41b659c5.js.map"
+    "main.03e7b4ea.css.map": "/dark-to-light-page/static/css/main.03e7b4ea.css.map",
+    "main.3d9a5c23.js.map": "/dark-to-light-page/static/js/main.3d9a5c23.js.map"
   },
   "entrypoints": [
-    "static/css/main.48f2dd54.css",
-    "static/js/main.41b659c5.js"
+    "static/css/main.03e7b4ea.css",
+    "static/js/main.3d9a5c23.js"
   ]
 }
